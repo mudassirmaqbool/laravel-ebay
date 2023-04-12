@@ -5,7 +5,12 @@
 [![Monthly Downloads](https://poser.pugx.org/hkonnet/laravel-ebay/d/monthly)](//packagist.org/packages/hkonnet/laravel-ebay)
 [![License](https://poser.pugx.org/hkonnet/laravel-ebay/license)](//packagist.org/packages/hkonnet/laravel-ebay)
 
-This package is based on [Ebay SDK](https://github.com/davidtsadler/ebay-sdk-php) written by David T. Sadler. 
+This package is a fork from [laravel-ebay](https://github.com/hkonnet/laravel-ebay)
+
+## UPDATE:
+
+Added support for php 7.2+ by updating dependancy from [Ebay-Sdk](https://github.com/hkonnet/laravel-ebay) by David T. Sadler to [Ebay-Sdk](https://github.com/BenMorel/ebay-sdk-php) by benMorel 
+
 This package will organize all the configuration according to laravel and make you use the SDK with out doing any exceptional work or configurations. 
 
 ## Getting Started
@@ -14,7 +19,7 @@ Follow the instruction to install and use this package.
 
 ### Prerequisites
 
-This is package use [**Ebay Php SDK**](http://devbay.net/)
+This is package use [**Ebay Php SDK**](https://github.com/BenMorel/ebay-sdk-php)
 
 ### Installing
 
@@ -340,9 +345,9 @@ Following methods are available to create services using `EbayServices` class.
 
 These services methods can be used to get appropriate service object to perform operations on Ebay.
 
-## Author
+## Forked By
 
-* **Haroon Khan** - *Initial work* - [hkonnet](https://github.com/hkonnet)
+* **Mudassir Maqbool** - [Mudassir Maqbool](https://github.com/mudassirmaqbool/)
 
 
 ## License
@@ -352,4 +357,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 * [David T. Sadler](https://github.com/davidtsadler)  for his awesome Ebay SDK.
+* **Haroon Khan** - [hkonnet](https://github.com/hkonnet) For the original wrapper 
+* [BenMorel](https://github.com/BenMorel/ebay-sdk-php)  for adding php 7.2+ support to Ebay SDK.
+
 
