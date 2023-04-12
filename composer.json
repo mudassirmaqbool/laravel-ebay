@@ -6,13 +6,17 @@
     "license": "MIT",
     "require": {
         "php": ">=5.5",
-        "dts/ebay-sdk-php": "~12.0|~13.0|~14.0|~15.0|~16.0|~17.0|~18.0"
+        "benmorel/ebay-sdk-php": "^19.1.0"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Haroon Khan",
             "email": "hkonnet@gmail.com"
+        },
+        {
+            "name": "Mudassir Maqbool Chaudry",
+            "email": "mudassirmaqboolofficial@gmail.com"
         }
     ],
     "autoload":{
